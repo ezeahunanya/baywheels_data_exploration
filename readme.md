@@ -1,6 +1,6 @@
 # BayWheels Data Exploration Project
 
-This project explores the data for a bike sharing company BayWheels (Ford GoBike) for the years 2017 and 2018 ('Bay_Wheels_Project_Part1'). The key visualisations are put into a presentation ('Bay_Wheels_Project_Part2'). The data is gathered from websites hosted online.
+This project explores the data for a bike sharing company BayWheels (Ford GoBike) for the years 2017 and 2018 'Bay_Wheels_Project_Part1'. The key visualisations are put into a presentation 'Bay_Wheels_Project_Part2'. The data is gathered from websites hosted online.
 
 ## Installation
 
