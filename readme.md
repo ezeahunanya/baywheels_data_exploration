@@ -1,18 +1,27 @@
 # BayWheels Data Exploration Project
-## by Eze Ahunanya
 
+This project explores the data for a bike sharing company BayWheels (Ford GoBike) for the years 2017 and 2018 ('Bay_Wheels_Project_Part1'). The key visualisations are put into a presentation ('Bay_Wheels_Project_Part2'). The data is gathered from websites hosted online.
 
-## Dataset
+## Installation
 
-The dataset explored in this project is the bike trip data from BayWheels (Ford GoBike) for the years 2017 and 2018. The data set contains approximately 2.2 million trips. Before the analysis, I merged the separate tables into one dataset, and got rid of rows with missing values. I extracted the start hour, day of week and the month from the datetimes and put these variables into separate columns. I corrected all the ata types of eah colum and ordered appropiate variables such as the month.
+To run this code locally Python 3 and Jupyer Notebook both need to be installed. Anaconda will install both.
 
+Anaconda is available for Windows, Mac OS X, and Linux. You can find the installers at https://www.anaconda.com/download/ and the installation instructions [here](https://docs.anaconda.com/anaconda/install/).
 
-## Summary of Findings
+Once Anaconda is installed update all the packages. This can be done by running the following code in the Anaconda Prompt:
 
+```
+conda upgrade --all
+```
 
-The key variable of interest, the trip duration, follows a unimodal distribution with a peak between 350 to 400. The start hours have  bimodal distribution with peaks at 08:00 and 17:00. The members birth years are unimoda and are skewed to the left meaning younger members predominantly use the platform. The younger members have a larger spread over the duration travelled and the longer journey are taken predominatly by younger members. The start hours became unimodal when looking at weekend data in contrast to the weekday. Males take shorter journeys compare to females on average and subscribers shorter journeys than customers.
+Clone the GitHub repository and open the notebook.
 
+```
+git clone https://github.com/ezeahunanya/baywheels_data_exploration.git
+```
 
-## Key Insights for Presentation
+To run the presentation, run the following code in command line:
 
-I tweaked the transparency for the Duration vs Birth Year plot to a 0.1 (alpha). I also reduced the number of data points in this plot to make it clearer what area was highly dense. 
+```
+jupyter nbconvert Bay_Wheels_Project_Part2.ipynb --to slides --post serve --template output_toggle
+```
